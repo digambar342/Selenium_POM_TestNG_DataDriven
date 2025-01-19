@@ -25,7 +25,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(Config.getURL());
 		context.setAttribute("driver", driver);
-		System.out.println("commit 2");
+		System.out.println("commit 1");
 	}
 	@AfterTest
 	public void tearDown() {
