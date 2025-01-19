@@ -34,6 +34,7 @@ public class SigninEmailMobile{
 	public SigninPassword clickContinue() {
 		continueButton.click();
 		System.out.println("specific to test");
+		System.out.println("specific to master");
 		return new SigninPassword(driver);
 		
 	}
