@@ -33,8 +33,7 @@ public class SigninEmailMobile{
 	
 	public SigninPassword clickContinue() {
 		continueButton.click();
-		System.out.println("test 22");
-		System.out.println("master22");
+		System.out.println("test2 22");
 		return new SigninPassword(driver);
 		
 	}
