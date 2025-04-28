@@ -36,6 +36,8 @@ public class LoginTest extends BaseTest{
 	@Test
 	public void method2() throws IOException {
 		System.out.println("inside method 2");
+		System.out.println("edited from Git");
+		
 	}
 	@Test
 	public void method3() throws IOException {
