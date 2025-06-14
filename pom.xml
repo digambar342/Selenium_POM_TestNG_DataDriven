@@ -44,12 +44,6 @@
 			<version>3.17</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
-		<dependency>
-			<groupId>com.sikulix</groupId>
-			<artifactId>sikulixapi</artifactId>
-			<version>1.1.1</version>
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 		<dependency>
@@ -64,9 +58,30 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.17.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.11.0</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.vidstige/jadb -->
+		<dependency>
+			<groupId>com.github.vidstige</groupId>
+			<artifactId>jadb</artifactId>
+			<version>1.2.1</version>
+			<scope>runtime</scope>
+		</dependency>
 
 
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>

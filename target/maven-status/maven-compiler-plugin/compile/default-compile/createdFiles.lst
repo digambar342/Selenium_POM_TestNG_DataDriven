@@ -1,0 +1,8 @@
+base\BaseTest.class
+pages\AmazonHomePage.class
+pages\ForgotPassword.class
+pages\SigninEmailMobile.class
+base\Interview.class
+pages\SigninPassword.class
+utils\Utilities.class
+config\Config.class

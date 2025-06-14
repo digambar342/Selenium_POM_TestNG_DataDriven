@@ -41,10 +41,10 @@ public class TestListeners implements ITestListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Object currentRetryAnalyzer = result.getMethod().getRetryAnalyzer();
-		if (currentRetryAnalyzer == null) {
-			result.getMethod().setRetryAnalyzer(new RetryAnalyzer());
-		}
+		Object currentRetryAnalyzer = result.getMethod().getRetryAnalyzer(result);
+//		if (currentRetryAnalyzer == null) {
+//			result.getMethod().setRetryAnalyzer(new RetryAnalyzer());
+//		}
 		
 	}
 

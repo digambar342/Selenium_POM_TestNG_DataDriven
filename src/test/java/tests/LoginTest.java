@@ -46,7 +46,6 @@ public class LoginTest extends BaseTest{
 		System.out.println("inside method 3.1");
 		System.out.println("inside method 3.2");
 		System.out.println("inside method 3.3");
-
 	}
 
 }
